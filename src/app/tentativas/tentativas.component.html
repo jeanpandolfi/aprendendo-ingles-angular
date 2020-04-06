@@ -1,5 +1,5 @@
 <div class="d-flex justify-content-end">
-    <img [src]="coracaoVazio" alt="X">
-    <img [src]="caracaoCheio" alt="O">
-    <img [src]="caracaoCheio" alt="O">
+
+    <img *ngFor = "let coracao of coracoes" [src]="coracao.exibeCoracao()" alt="Coração">
+
 </div>

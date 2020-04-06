@@ -1,5 +1,8 @@
 # AprendendoIngles
 
+O Jogo tem pré definidas algumas frases em Inglês que o jogador tem que traduzir as mensagens 
+para Português.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
 
 ## Development server

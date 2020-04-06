@@ -2,10 +2,12 @@
     <div class="jumbotron jumbotron-fluid">
         <div class="row">
             <div class="col-sm-6">
-                <app-progresso [progresso] = "progresso"></app-progresso>
+                <!-- comnunicação entre componentes -->
+                <!-- variavel do componente filho  - variavel do componente pai         -->
+                <app-progresso [control-progress] = "progresso"></app-progresso>
             </div>
             <div class="col-sm-6">
-                <app-tentativas></app-tentativas>
+                <app-tentativas [control-tentativas] = "tentativas"></app-tentativas>
             </div>
         </div>
 
